@@ -74,3 +74,5 @@ while True:
 for i in range(len(std_gpa)):
     print(f"Student #{i + 1} GPA: {std_gpa[i]}")
 
+print(f"Total number of students: {len(std_grades)}")
+print(f"Average GPA: {round(sum(std_gpa) / len(std_gpa), 2)}")
