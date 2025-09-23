@@ -57,6 +57,8 @@ while True:
 
     std_grades.append(grade)
 
+    std_no += 1
+
     # Here I am taking  for loop to calculate the GPA for each student
 
     total = 0
