@@ -31,6 +31,5 @@ def on_release(key):
         return False
     
 with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
 
-its me ravi bro.  what's is the code?
+    listener.join()
