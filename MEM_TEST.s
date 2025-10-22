@@ -1,0 +1,11 @@
+SUB  SP, SP, #16
+MOV  X0, #0x11223344AABBCCDD
+STR  X0, [SP, #0]
+MOV  W1, #'A'
+STRB W1, [SP, #15]
+MOV  X0, #0
+MOV  W1, #0
+LDR  X2, [SP, #0]
+LDRB W3, [SP, #15]
+LDRB W4, [SP, #2]
+RET
